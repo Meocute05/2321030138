@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+</head>
+<body>
+    <h1>Form tạo thông tin</h1>
+    <form>
+        <!-- input nếu không truyền type thì --> 
+         <!-- type sẽ mặc định là text-->
+          Họ và tên: <input type="text" name="hovaten">
+<br>
+<div>
+Giới thiệu: <textarea name = "gioi thieu"></textarea>
+    </div>
+    <div>
+        <p><b>Email:</b></p>
+        <input type ="email" name="email">
+
+    </div>
+    <div>
+    <p><b>Số điện thoại</b></p>
+    <input name ="soDienThoai"
+     type ="tel" 
+     placeholder="Dạng số 123">.
+    reqyired
+    pattern="([[0-9](1)])"
+</div>
+<div>
+    <p><b>Giới tính</b></p>
+     <input type ="radio" name="Gioitinh" value="nam">Nam<br>
+     <input type ="radio" name="Gioitinh" value="nu">Nữ<br>
+</div>
+<div>
+    <input type="submit">
+
+</div>
+    </form>
+</body>
+</html>
