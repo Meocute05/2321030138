@@ -5,45 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .khoi1{
-            bakground-color: red
-
-        }
-         .khoi2{
-            bakground-color: green
-            /* 1 giá trị cách đều xung quanh = giá trị đó */
-            /* 2 giá trị: giá trị đầu (trên dưới ), giá trị 2 (trái phải) */
-            /* 4 giá trị: theo thứ tự trên phải dưới trái */
-
-
-
-            margin: 50px 200px; 
-            padding: 50px;
-        }
-         .khoi3{
-            bakground-color: pink
-        }
-        .khoi4{
-            bakground-color: blue
-        }
-        .khoi5{
-            bakground-color: orange
-        }
-        .khoi6{
-            bakground-color: yellow
-        }
+        
     </style>
 </head>
 <body>
+     background-color: #2F2C38
+     .danh-muc {
+        list-style: none;
+        display: flex;
 
-    <div id="ten khoa">
-<div class="khoi1">Khoi1</div> 
-<div class="khoi2">Khoi2</div> 
-<div class="khoi3">Khoi3</div> 
+     }
+     .lien-ket-muc {
+        text-decoration: none;
+        color:#DBDBDD
+     }
+     header {
+        display: flex;
+        justify-content: space-between;
+         align-items: center;
 
-<div class="Khoi4">
-<div class="khoi5">Khoi5</div> 
-<div class="khoi6">Khoi6</div> 
-</div>
-</body>
+     }
+     .muc {
+        padding : 15px;
+        border-radius: 25px;
+     }
+     .muc:hover {
+        background-color: gray;
+     }
+     .logo {
+        width: 50px;
+        
+     }
+     .avata {
+        width: 50px;
+     }
+     .dang-chon {
+        background-color: #4E4B52
+     }
+     .banner-anh {
+     width: 100px;
+     border-radius: 20px;
+   }
+   .danh-sach-the-loai {
+      width: 95px;
+      
+   }
+      </head>
+      <body>
+        <header>
+            <img src="logo.png" alt="" class="logo">
+            <nav class="danh-muc">
+                <ul class="danh-sach-muc">
+                    <li><a href="#" class="muc">Trang chủ</a></li>
+                    <li><a href="#" class="muc">Giới thiệu</a></li>
+                    <li><a href="#" class="muc">Dịch vụ</a></li>
+                    <li><a href="#" class="muc">Liên hệ</a></li>
+                    <li><a href="#" class="muc">Hỗ trợ</a></li>
+                </ul>
+                </nav>
+                <div class="chuc nang">
+                <div class="tim-kiem">
+                    <input type="text" placeholder="Tìm kiếm">
+                    <button>Tìm</button>
+                </div>
+            </header>
+        </body>
+    </body>
 </html>
